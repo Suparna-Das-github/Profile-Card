@@ -1,0 +1,126 @@
+<!--
+
+Created by Suparna
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile Card</title>                
+    <style>
+
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+body {
+     color: black;
+     font-weight: bolder;
+     font-family: Fantasy;   background-image:linear-gradient(150deg, black,purple,yellow, lightblue,violet, blue, yellow);
+     font-size: 20px ;
+}
+
+div.circle{
+    margin-top: -10px;
+    position:absolute ;
+    width:70px;
+    height:70px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 40px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}   
+
+div{
+    margin-top:70px;
+    padding-box : 50px;
+    padding: 20px;
+    width: 250px;
+    height:500px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform:rotate(10deg); 
+}
+
+img {
+    border : 5px groove black;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+    
+}   
+
+div.circle2
+{
+    float:right;
+    margin-top: -50pt;
+    width:70px;
+    height:70px;
+    border-radius:40px;
+}
+
+img, h3, h1, span{
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 4s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+    </style>      
+    </head>
+    
+    <body>
+    <div class="circle">        
+    </div>
+    <center>
+    <div>
+    
+    <a href="https://www.sololearn.com/Profile/25610696/?ref=app">
+    <img src = "https://api.sololearn.com/Uploads/Avatars/25610696.jpg">
+    </a>  
+       
+    <h3>SUPARNA DAS</h3>
+    <h3>Enthusiastic Coder</h3>
+                        
+    <h1>
+        <span>🤗</span>
+        <span>🤠</span><br>
+        <span>🥳</span>    
+        <span>🎊</span><br>
+        <span>🎉</span><br>
+    </h1>  
+    </div>
+    
+    </center>
+    <div class="circle2">        
+    </div>
+    <script>
+        alert("Created by Suparna Profile Card using HTML & CSS");
+        var name = prompt("Please Enter your name");
+        if (name) 
+        {
+        alert("Thanks " +name+ " for Watching");
+        }
+        else
+        {    
+        alert("Thanks visitor for watching");
+        }
+   </script>
+        
+    </body>
+</html>
